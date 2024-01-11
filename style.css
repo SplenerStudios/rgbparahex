@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(15deg, #FF8C4D, #FFD0DA, #9686E9, #323A82);
+  height: 100vh;
+}
+.wrapper {
+  height: 50px;
+  width: 90%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#r input::-webkit-slider-thumb{
+  background: red;
+  box-shadow: -208px 0 0 200px red;
+}
+#g input::-webkit-slider-thumb {
+  background: green;
+  box-shadow: -208px 0 0 200px green;
+}
+#b input::-webkit-slider-thumb {
+  background: blue;
+  box-shadow: -208px 0 0 200px blue;
+}
+
+#r .rgb{
+  color: red;
+}
+#g .rgb{
+  color: green;
+}
+#b .rgb {
+  color: blue;
+}
+
+.hex {
+  font-size: 30px;
+  background: #fff;
+  border-radius: 100px;
+  padding: 2px;
+  border: 1px solid black;
+}
+
+.hex-div {
+  background: #000;
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 600px;
+  position: fixed;
+  top: 0;
+  margin-top: 50px;
+  border: 2px solid #fff;
+}
+
+.material-symbols-outlined {
+  font-size: 30px;
+  background: #fff;
+  border-radius: 100px;
+  padding: 2px;
+  margin-left: 15px;
+  border: 1px solid black;
+}
